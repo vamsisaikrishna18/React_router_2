@@ -1,0 +1,38 @@
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.components {
+  display: flex;
+}
+.image {
+  height: 24px;
+  width: 24px;
+}
+.names {
+  font-size: 20px;
+  font-family: 'Roboto';
+}
+.component {
+  font-family: 'Roboto';
+  font-weight: 900;
+  color: #12022f;
+  text-decoration: none;
+  margin-left: 20px;
+}
+.style {
+  list-style-type: none;
+}
+@media (max-width: 575px) {
+  .nav-container {
+    padding: 15px;
+  }
+}
